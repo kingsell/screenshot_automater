@@ -1,0 +1,31 @@
+pycache/
+*.py[cod]
+*.pyo
+
+Virtual envs
+.venv/
+venv/
+env/
+
+Build artifacts
+build/
+dist/
+*.spec
+
+Executables and binaries
+*.exe
+*.dll
+
+Logs / temp
+*.log
+*.tmp
+launch.txt
+
+IDE / editors
+.vscode/
+.idea/
+.vs
+
+OS files
+.DS_Store
+Thumbs.db
